@@ -1,0 +1,22 @@
+A = 5
+B = 3
+print( A+ B)
+
+A = 5
+B = 3
+Compare= A<B
+print(Compare)
+
+
+
+A = 10
+B = 10
+
+A is B
+
+
+A= "enjoying"
+Print( "Python programming is" + A)
+
+
+Google collab link: https://colab.research.google.com/drive/17PcaA1Mtl4RviIch6lheTsmF6OXoKwuT#scrollTo=61KkZkl0ZHE_
