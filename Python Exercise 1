@@ -1,0 +1,31 @@
+import math
+
+print('=========================================')
+
+print('Enter your full name:')
+Input_Name = input()
+
+print('=========================================')
+
+print('Course:')
+Input_Course = input()
+
+print('=========================================')
+
+print(" Please enter your grade in Preliminary")
+Prelim_Grade = int(input())
+print(" Please enter your grade in Midterms")
+Midterms_Grade = int(input())
+print(" Please enter your grade in Finals")
+Final_Grade = int(input())
+
+
+
+Total = (0.3 * Prelim_Grade + 0.3 * Midterms_Grade + 0.4 * Final_Grade)
+print("Your Semestral Grade is:" + str(Total))
+
+
+
+
+
+GOOGLE COLLAB LINK HERE: https://colab.research.google.com/drive/1pI-ljwbDC5Rbg14V2_bhrZDOXUIYi_k8?usp=sharing
