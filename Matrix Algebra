@@ -1,0 +1,102 @@
+GOOGLE COLLAB LINK https://colab.research.google.com/drive/1O7DGZsMZeqBGulhmX8ugAVx8qVkb0nL_?usp=sharing
+
+
+
+
+import numpy as np
+
+a = np.array ([1,2,3]) # This is a 1 x 3 array dimension
+print(a)
+
+
+
+
+
+import numpy as np
+
+x = np.array([[2,3,8],[4,5,6]]) #2 x 3 dimension
+print(x)
+print(x.shape)
+
+
+
+
+
+import numpy as np
+
+c= np.array ([[1,2,3], [4,5,6] , [7,8,9]]) #Square Matrix
+
+print(c)
+
+
+
+
+
+import numpy as np
+
+d= np.full((2,2),7)
+print (d)
+
+
+
+import numpy as np
+
+e= np.eye(2)
+print (e)
+
+
+
+import numpy as np
+
+f= np.diagonal ([[1,2,3], [4,5,6] , [7,8,9]]) #Diagonal
+
+print (f)
+
+
+
+
+import numpy as np
+
+g= np.empty((0,10))
+
+print (g)
+
+
+
+
+import numpy as np
+
+h= np.empty((0,10))
+
+print (h)
+
+
+
+import numpy as np
+
+i= np.zeros((3,3))
+
+print (i)
+
+
+import numpy as np
+
+e = np.eye(2)
+g = np.zeros ((2,2)) #ADDITION
+
+print (e)
+print (g)
+print (e+g)
+
+
+
+
+
+import numpy as np
+
+e = np.eye(2)
+g = np.zeros ((2,2)) #SUBTRACTION
+
+print (e)
+print (g)
+print (e-g)
